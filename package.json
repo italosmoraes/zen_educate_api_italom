@@ -1,0 +1,26 @@
+{
+  "name": "zen_educate_italom",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Italo Moraes",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive --reporter spec --exit test/",
+    "start": "node ./src/index.js",
+    "dev": "NODE_ENV=test nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "dirty-chai": "^2.0.1",
+    "mocha": "^4.1.0",
+    "moxios": "^0.4.0",
+    "nodemon": "^1.18.7",
+    "sinon": "^4.5.0",
+    "sinon-chai": "^3.2.0"
+  }
+}
